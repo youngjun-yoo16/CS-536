@@ -1,0 +1,12 @@
+
+Summary of tcp_upload test run from 2026-03-05 05:34:24
+  Title: 'CUBIC - Single Stream Test'
+
+                                          avg       median       99th %          # data pts
+ Ping (ms) ICMP                :        34.33        33.10        78.85 ms              350
+ TCP upload                    :       100.24        92.61       222.75 Mbits/s         350
+ TCP upload::tcp_cwnd          :       315.09       305.00       505.92                 213
+ TCP upload::tcp_delivery_rate :        89.68        80.82       236.48                 213
+ TCP upload::tcp_pacing_rate   :       126.94       104.97       389.53                 213
+ TCP upload::tcp_rtt           :        38.55        36.26        81.07                 213
+ TCP upload::tcp_rtt_var       :         1.30         0.82         5.74                 213

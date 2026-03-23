@@ -1,0 +1,16 @@
+
+Summary of tcp_upload test run from 2026-03-05 05:48:45
+  Title: 'BBR - Single Stream Test'
+
+                                            avg       median       99th %          # data pts
+ Ping (ms) ICMP                  :        33.49        14.00       111.20 ms              100
+ TCP upload                      :        92.40       101.55       237.97 Mbits/s         100
+ TCP upload::tcp_bbr_bw          :       129.47       133.78       208.07                  34
+ TCP upload::tcp_bbr_cwnd_gain   :         2.03         2.00         2.59                  34
+ TCP upload::tcp_bbr_mrtt        :        10.74        10.73        10.84                  34
+ TCP upload::tcp_bbr_pacing_gain :         1.05         1.00         2.35                  34
+ TCP upload::tcp_cwnd            :       527.00       557.00       746.20                  34
+ TCP upload::tcp_delivery_rate   :        80.14        83.64       149.92                  34
+ TCP upload::tcp_pacing_rate     :       127.55       130.72       228.01                  34
+ TCP upload::tcp_rtt             :        48.47        45.69       111.16                  34
+ TCP upload::tcp_rtt_var         :         1.80         1.28         6.69                  34

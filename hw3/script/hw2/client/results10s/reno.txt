@@ -1,0 +1,27 @@
+======================================================================
+SUMMARY: 5 successful, 0 failed
+======================================================================
+
+Throughput Statistics:
+  Average: 327.07 Mbps
+  Max:     778.37 Mbps
+  Min:     77.57 Mbps
+  Total:   1.905 GB transferred
+
+RTT Statistics:
+  Average: 421.32 ms
+  Max:     1656.40 ms
+  Min:     27.78 ms
+
+Loss Statistics:
+  Total Lost Packets:  0
+  Total Retransmits:   10
+
+Detailed Results:
+Host                                Country    Tput (Mbps)    RTT (ms)     Lost     Retrans 
+---------------------------------------------------------------------------------------
+37.19.206.20                        US               778.37       27.78       0       3
+speedtest.nyc1.us.leaseweb.net      US               315.99     1656.40       0       5
+107.1.167.50                        US               267.35       78.23       0       2
+ping.online.net                     FR               196.08      104.63       0       0
+sgp.proof.ovh.net                   SG                77.57      239.57       0       0

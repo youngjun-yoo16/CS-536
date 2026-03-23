@@ -1,0 +1,5 @@
+config TCP_CONG_EXPO
+	tristate "TCP Expo congestion control (NEW)"
+	default m
+	help
+	  Experimental Reno-based congestion control.

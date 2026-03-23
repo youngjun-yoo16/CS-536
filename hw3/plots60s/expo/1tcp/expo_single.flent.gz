@@ -1,0 +1,12 @@
+
+Summary of tcp_upload test run from 2026-03-05 05:36:47
+  Title: 'EXPO - Single Stream Test'
+
+                                          avg       median       99th %          # data pts
+ Ping (ms) ICMP                :        35.33        34.15        82.83 ms              349
+ TCP upload                    :        96.41        90.63       252.13 Mbits/s         349
+ TCP upload::tcp_cwnd          :       315.92       284.00       644.20                 213
+ TCP upload::tcp_delivery_rate :        87.15        80.71       267.05                 213
+ TCP upload::tcp_pacing_rate   :       124.77       106.29       409.09                 213
+ TCP upload::tcp_rtt           :        39.56        37.10        85.44                 213
+ TCP upload::tcp_rtt_var       :         1.55         0.97         5.88                 213

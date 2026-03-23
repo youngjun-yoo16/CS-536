@@ -1,0 +1,12 @@
+
+Summary of tcp_upload test run from 2026-03-05 05:48:01
+  Title: 'RENO - Single Stream Test'
+
+                                          avg       median       99th %          # data pts
+ Ping (ms) ICMP                :        26.83        16.25        81.87 ms              100
+ TCP upload                    :        90.25        86.33       200.26 Mbits/s         100
+ TCP upload::tcp_cwnd          :       316.03       307.00       636.30                  35
+ TCP upload::tcp_delivery_rate :        79.31        69.72       205.65                  35
+ TCP upload::tcp_pacing_rate   :       115.40        94.85       270.91                  35
+ TCP upload::tcp_rtt           :        42.53        40.29        79.75                  35
+ TCP upload::tcp_rtt_var       :         1.55         0.93         5.53                  35

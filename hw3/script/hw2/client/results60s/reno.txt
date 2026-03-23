@@ -1,0 +1,23 @@
+======================================================================
+SUMMARY: 1 successful, 0 failed
+======================================================================
+
+Throughput Statistics:
+  Average: 179.61 Mbps
+  Max:     179.61 Mbps
+  Min:     179.61 Mbps
+  Total:   1.255 GB transferred
+
+RTT Statistics:
+  Average: 121.05 ms
+  Max:     121.05 ms
+  Min:     121.05 ms
+
+Loss Statistics:
+  Total Lost Packets:  40
+  Total Retransmits:   102
+
+Detailed Results:
+Host                                Country    Tput (Mbps)    RTT (ms)     Lost     Retrans 
+---------------------------------------------------------------------------------------
+speedtest.shinternet.ch             CH               179.61      121.05      40     102

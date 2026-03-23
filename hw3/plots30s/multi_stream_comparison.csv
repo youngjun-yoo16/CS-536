@@ -1,0 +1,5 @@
+Algorithm,Total_throughput (Mbps),Per_flow_avg (Mbps),Per_flow_min (Mbps),Per_flow_max (Mbps),Jains_fairness,Ping_avg (ms),Ping_median (ms),Ping_p99 (ms),Avg_flow_RTT (ms),Avg_flow_CWND
+RENO,98.71,12.34,10.32,15.56,0.981,36.46,26.3,105.19,58.07,62.16
+BBR,77.32,9.66,8.46,10.97,0.9935,37.62,22.0,115.08,59.89,62.31
+CUBIC,97.8,12.22,6.19,24.61,0.8498,37.76,23.85,97.92,63.19,62.21
+EXPO,83.41,10.43,6.81,13.42,0.9682,45.03,36.0,110.04,72.5,68.33

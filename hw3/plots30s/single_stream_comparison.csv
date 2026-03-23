@@ -1,0 +1,5 @@
+Algorithm,Throughput_avg (Mbps),Throughput_median (Mbps),Throughput_p99 (Mbps),Ping_avg (ms),Ping_median (ms),Ping_p99 (ms),CWND_avg,CWND_median,RTT_avg (ms),RTT_median (ms),RTT_p99 (ms),RTT_var_avg (ms),Delivery_rate_avg (Mbps),Pacing_rate_avg (Mbps)
+RENO,90.25,86.33,200.26,26.83,16.25,81.87,316.03,307.0,42.53,40.29,79.75,1.55,79.31,115.4
+BBR,92.4,101.55,237.97,33.49,14.0,111.2,527.0,557.0,48.47,45.69,111.16,1.8,80.14,127.55
+CUBIC,91.28,90.4,190.18,27.08,12.85,74.24,316.78,342.0,40.8,41.71,74.54,1.24,88.28,120.44
+EXPO,92.43,94.13,159.92,32.84,24.2,87.04,402.42,388.5,50.43,53.37,81.14,2.15,87.0,130.06
