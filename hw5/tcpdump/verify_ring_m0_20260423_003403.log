@@ -1,0 +1,29 @@
+Log file: /home/hw5-0/hw5/tcpdump/verify_ring_m0_20260423_003403.log
+============================================
+  Ring Topology Verification
+  Machine0 (10.0.0.1)
+============================================
+
+>>> IP forwarding status:
+  net.ipv4.ip_forward = 1 (GOOD :) )
+
+>>> Reverse path filtering:
+  all.rp_filter = 0 (should be 0)
+  enp2s0.rp_filter = 0 (should be 0)
+
+>>> Routing table (enp2s0):
+10.0.0.0/24 proto static scope link 
+10.0.0.2 proto static scope link 
+10.0.0.3 via 10.0.0.2 proto static 
+10.0.0.4 via 10.0.0.2 proto static 
+10.0.0.5 via 10.0.0.2 proto static 
+
+>>> ARP table (enp2s0):
+10.0.0.5 lladdr 00:0c:29:6b:f9:9c PERMANENT 
+10.0.0.3 lladdr 00:0c:29:6b:f9:9c PERMANENT 
+192.168.96.254 FAILED 
+10.0.0.4 lladdr 00:0c:29:6b:f9:9c PERMANENT 
+10.0.0.2 lladdr 00:0c:29:6b:f9:9c PERMANENT 
+
+>>> Ping test to all machines:
+  Machine1 (10.0.0.2): FAIL
